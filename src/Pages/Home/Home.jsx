@@ -6,7 +6,7 @@ import vend from "../../Assets/vending.png";
 function Home() {
   return (
     <div className="home">
-      <video autoPlay muted className="vid" src={vid}></video>
+      <video loop autoPlay muted className="vid" src={vid}></video>
       <img src={mobile} alt="" className="mobile-bg" />
       <div className="fixed-bot">
         <div className="left-fixed">
